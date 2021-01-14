@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA579ACB25AFBBA4009FF65D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA579ACA25AFBBA4009FF65D /* SettingsViewController.swift */; };
 		FA58643425A6F51300DB72FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58643325A6F51300DB72FC /* AppDelegate.swift */; };
 		FA58643625A6F51300DB72FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58643525A6F51300DB72FC /* SceneDelegate.swift */; };
 		FA58643825A6F51300DB72FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA58643725A6F51300DB72FC /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA579ACA25AFBBA4009FF65D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		FA58643025A6F51200DB72FC /* Tip Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tip Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA58643325A6F51300DB72FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA58643525A6F51300DB72FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		FA58642725A6F51200DB72FC = {
 			isa = PBXGroup;
 			children = (
+				FA579ACA25AFBBA4009FF65D /* SettingsViewController.swift */,
 				FA58643225A6F51300DB72FC /* Tip Calculator */,
 				FA58644925A6F51500DB72FC /* Tip CalculatorTests */,
 				FA58645425A6F51600DB72FC /* Tip CalculatorUITests */,
@@ -261,6 +264,7 @@
 				FA58643825A6F51300DB72FC /* ViewController.swift in Sources */,
 				FA58643425A6F51300DB72FC /* AppDelegate.swift in Sources */,
 				FA58643625A6F51300DB72FC /* SceneDelegate.swift in Sources */,
+				FA579ACB25AFBBA4009FF65D /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +450,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.juliancolumbres.Tip-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,7 +469,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.juliancolumbres.Tip-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
