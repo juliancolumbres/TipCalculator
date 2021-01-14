@@ -21,10 +21,10 @@ The following **optional** features are implemented:
 * [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
-- [ ] User can select the number of people the bill will be split between through a split slider
-- [ ] User can select tip percentages by using a slider rather than a segmented control
-- [ ] Settings page for choosing the default tip, minimum tip, and maximum tip for the tip percentage slider 
-- [ ] Loading and saving of default values on settings page
+- [x] User can select the number of people the bill will be split between through a split slider
+- [x] User can select tip percentages by using a slider rather than a segmented control
+- [x] Settings screen for choosing the default tip, minimum tip, and maximum tip for the tip slider 
+- [x] Loading and saving of default values on Settings sceen
 
 ## Video Walkthrough
 
